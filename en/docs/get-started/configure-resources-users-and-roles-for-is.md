@@ -18,7 +18,7 @@ WSO2 Identity Server provides comprehensive capabilities for managing and securi
 
     | API Resource | Identifier | Display Names | Scopes | 
     |------------- | ---------- | ------------- | ------ |
-    | API Resource for access scopes attached to customer facing Open Banking APIs | User-defined-oauth2-resource | User-defined-oauth2-resource | accounts </br>payments </br>fundsconfirmations |
+    | API Resource for access scopes attached to customer facing Open Banking APIs | User-defined-oauth2-resource | User-defined-oauth2-resource | accounts, payments, fundsconfirmations |
     | API resource to acccess internal Open Banking APIs provided by WSO2 | OB-internal-api-resource | OB-internal-api-resource | ob-internal-api-access |
 
 Follow the below steps to create above API Reources.

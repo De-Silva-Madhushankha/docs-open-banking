@@ -33,7 +33,7 @@ application access tokens that are required to invoke the open banking APIs.
    - The registration request is an encoded JSON Web Token (JWT), which is signed by the signing certificate obtained from the regulated directory. The request payload also contains the encoded and signed SSA.
    - After successful validation of the request, the API consumer applications receive a client ID, which they can use to obtain application access tokens and access banking APIs. 
 
-## Dynamic Client Registration Request Validations supported by Accelerator
+## Dynamic Client Registration Request Validations
 
 WSO2 Open Banking Accelerator leverages the [OAuth 2.0 Dynamic Client Registration (DCR)](https://is.docs.wso2.com/en/latest/guides/authentication/oidc/oauth-dynamic-client-registration/) endpoint in WSO2 Identity Server as the foundation for Open Banking DCR. Standard Dynamic Client Registration request validations, as specified in the [OAuth 2.0 Dynamic Client Registration Protocol](https://datatracker.ietf.org/doc/html/rfc7591), are handled by WSO2 Identity Server.
 
